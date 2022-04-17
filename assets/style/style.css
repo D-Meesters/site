@@ -1,0 +1,36 @@
+:root {
+    --bg: #282828;
+    --txt: #458588;
+    --purple: rgba(89, 6, 167, 0.8);
+}
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: var(--bg);
+    color: var(--txt);
+}
+
+.patrick {
+    width: 10vw;
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.about {
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+    padding: 10px;
+}
+
+a:link, a:visited {
+	color: var(--txt);
+}
+
+a:hover {
+	color: var(--purple);
+	border-bottom: 0;
+    transition: .4s ease;
+}
