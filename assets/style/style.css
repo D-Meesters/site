@@ -2,6 +2,8 @@
     --bg: #282828;
     --txt: #458588;
     --purple: rgba(89, 6, 167, 0.8);
+    --white: #E8E8E8;
+
 }
 
 body {
@@ -18,19 +20,34 @@ body {
     color: var(--purple);
 }
 
-.about {
+.white {
+    color: var(--white);
+}
+
+#about {
     margin: auto;
     width: 50vw;
-    height: 50vh;
+    padding: 10px;
+}
+
+#about2 {
+    margin: auto;
+    width: 50vw;
     padding: 10px;
 }
 
 a:link, a:visited {
-	color: var(--txt);
+    color: var(--txt);
 }
 
 a:hover {
-	color: var(--purple);
-	border-bottom: 0;
+    color: var(--purple);
+    border-bottom: 0;
     transition: .4s ease;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    width: 50vw;
 }
