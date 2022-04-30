@@ -3,6 +3,7 @@
     --txt: #458588;
     --purple: rgba(89, 6, 167, 0.8);
     --white: #E8E8E8;
+    --red: #ff0000;
 
 }
 
@@ -22,6 +23,10 @@ body {
 
 .white {
     color: var(--white);
+}
+
+.red {
+    color: var(--red);
 }
 
 #about {
@@ -50,4 +55,18 @@ a:hover {
     background-color: #1f1f1f;
     border-radius: 10px;
     width: 50vw;
+}
+
+.button {
+    margin: auto;
+    background-color: #282928;
+    width: 30vw;
+    height: 30vh;
+}
+
+#project {
+    margin: auto;
+    width: 20vw;
+    height: 10vh;
+    color: var(--red);
 }
